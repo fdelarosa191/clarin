@@ -1,0 +1,432 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarin Template</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/foundation-icons/foundation-icons.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/1cb38d40c5.css">
+  </head>
+  <body>
+    <!-- Start Offcanvas -->
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left" data-transition="overlap" id="offCanvas" data-off-canvas>
+          
+          <!-- Close button Off Canvas -->
+          <ul class="cerrar-menu">
+            <li>
+              <button class="close-button" data-close>
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </li>      
+          </ul>
+    
+          <!-- Menu Off Canvas -->
+          <ul id="drill-menu" class="dropdown vertical menu" data-drilldown>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="#">About</a>
+              <ul class="menu">
+                <li><a href="#">Clarín Blog</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact me</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li>
+              <a data-open="modalSearch">
+                <i class="fa fa-search" aria-hidden="true"></i> Search
+              </a>
+            </li>
+          </ul>
+        
+        </div>
+    
+        <!-- Content -->
+        <div class="off-canvas-content" data-off-canvas-content>
+          <!-- Header -->
+          <header id="header-container">
+              
+              <!-- Start Top Nav -->
+              <div id="header-top" data-magellan-target="header-top">
+                <div data-sticky-container>      
+                  <div class="sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small">
+                    <div class="row">
+                      
+                      <!-- Top Nav -->
+                      <div id="top-nav" class="column small-4 medium-6 large-8">
+                        
+                        <!-- Navigation -->
+                        <nav id="navigation">
+          
+                          <!-- Menu List Hidden for medium and large-->
+                          <ul class="menu hide-for-large hide-for-xlarge-only">
+                            <li>
+                              <a data-toggle="offCanvas">
+                                <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                              </a>
+                            </li>
+                          </ul>
+                          
+                          <!-- Menu Main -->
+                          <ul class="dropdown menu show-for-large show-for-xlarge-only" data-dropdown-menu>
+                            <li><a href="#">Home</a></li>
+                            <li class="active"><a href="#">About</a>
+                              <ul class="menu">
+                                <li><a href="#">Clarín Blog</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Contactme</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                          </ul>
+          
+                        </nav>
+          
+                      </div>
+                      
+                      <!-- Social Icons -->
+                      <div id="top-social" class="column small-8 medium-5 large-3">
+                        <ul class="menu align-right">
+                          <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        </ul>
+                      </div>
+          
+                      <!-- Top Search -->        
+                      <div id="top-search" class="column small-12 medium-1 large-1 hide-for-small-only">
+                        <ul class="menu" >
+                          <li>
+                            <a data-open="modalSearch"><i class="fa fa-search" aria-hidden="true"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                      
+                      <!-- Modal Search -->
+                      <div class="large reveal" id="modalSearch" data-animation-in="fade-in" data-animation-out="fade-out" data-reveal>
+                        
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                        
+                        <div class="divider"></div>
+                        
+                        <form action="">
+                          <div class="input-group">
+                            <input type="text" name="search" class="input-group-field" placeholder="Type your search">
+                            <div class="input-group-button">
+                              <input type="submit" class="button" value="Search">
+                            </div>
+                          </div>    
+                        </form>
+                      
+                      </div>
+                      
+          
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              <!-- Logo Header -->
+              <div id="top-logo" class="callout large">
+                <div class="row column">
+                  <h1 class="text-logo text-center">
+                    <a href="/">
+                      <img src="assets/img/clarin-logo.png" width="380" alt="Clarin Template">
+                    </a>
+                  </h1>
+                </div>
+              </div>
+                    
+          </header>
+          
+          <!-- Posts  -->
+          <section id="body-content" class="row align-center">
+            <div id="posts-container" class="column small-12">
+              <div class="container">
+                <!-- Post-->
+                <article class="blog-post">
+                  
+                  <!-- Categories -->
+                  <div class="row columns category-blog">
+                    <a href="#">Healt</a>  <span> / </span>  
+                    <a href="#">Lifestyle</a> <span> / </span> 
+                    <a href="#">Fashion</a>
+                  </div>
+                  
+                  <!-- Title post -->
+                  <a href="#">
+                    <h2 class="text-center">Awesome blog post title</h2>
+                  </a>
+                  
+                  <!-- Meta post-->
+                  <p class="meta-post">
+                    By: <a href="#">Monsieour le Chifié</a> 
+                    - Dic 05, 2016 - 
+                    <span>40</span> Comments
+                  </p>
+                  
+                  <!-- Excerpt post -->
+                  <p class="hide-for-small-only text-center">Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus...</p>
+                  
+                  <!-- Thumbnail post -->
+                  <a href="">
+                    <img class="image-post" src="assets/img/post/woman-meli.jpg">
+                  </a>
+                
+                  <!-- Share post -->
+                  <div class="row">
+                    <div class="column small-4 medium-6">
+                      <p class="views-post text-left"><i class="fi-eye"></i> 36 views</p>
+                    </div>
+                    <div class="column small-8 medium-6">
+                      <ul class="share-post text-right">
+                        <li><span class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></span></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                </article>
+                <!-- Post-->
+                <article class="blog-post">
+                  
+                  <!-- Categories -->
+                  <div class="row columns category-blog">
+                    <a href="#">Healt</a>  <span> / </span>  
+                    <a href="#">Lifestyle</a> <span> / </span> 
+                    <a href="#">Fashion</a>
+                  </div>
+                  
+                  <!-- Title post -->
+                  <a href="#">
+                    <h2 class="text-center">Awesome blog post title</h2>
+                  </a>
+                  
+                  <!-- Meta post-->
+                  <p class="meta-post">
+                    By: <a href="#">Monsieour le Chifié</a> 
+                    - Dic 05, 2016 - 
+                    <span>40</span> Comments
+                  </p>
+                  
+                  <!-- Excerpt post -->
+                  <p class="hide-for-small-only text-center">Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus...</p>
+                  
+                  <!-- Thumbnail post -->
+                  <a href="">
+                    <img class="image-post" src="assets/img/post/woman-meli.jpg">
+                  </a>
+                
+                  <!-- Share post -->
+                  <div class="row">
+                    <div class="column small-4 medium-6">
+                      <p class="views-post text-left"><i class="fi-eye"></i> 36 views</p>
+                    </div>
+                    <div class="column small-8 medium-6">
+                      <ul class="share-post text-right">
+                        <li><span class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></span></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                </article>
+                <!-- Post-->
+                <article class="blog-post">
+                  
+                  <!-- Categories -->
+                  <div class="row columns category-blog">
+                    <a href="#">Healt</a>  <span> / </span>  
+                    <a href="#">Lifestyle</a> <span> / </span> 
+                    <a href="#">Fashion</a>
+                  </div>
+                  
+                  <!-- Title post -->
+                  <a href="#">
+                    <h2 class="text-center">Awesome blog post title</h2>
+                  </a>
+                  
+                  <!-- Meta post-->
+                  <p class="meta-post">
+                    By: <a href="#">Monsieour le Chifié</a> 
+                    - Dic 05, 2016 - 
+                    <span>40</span> Comments
+                  </p>
+                  
+                  <!-- Excerpt post -->
+                  <p class="hide-for-small-only text-center">Praesent id metus massa, ut blandit odio. Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec congue lacinia dui, a porttitor lectus...</p>
+                  
+                  <!-- Thumbnail post -->
+                  <a href="">
+                    <img class="image-post" src="assets/img/post/woman-meli.jpg">
+                  </a>
+                
+                  <!-- Share post -->
+                  <div class="row">
+                    <div class="column small-4 medium-6">
+                      <p class="views-post text-left"><i class="fi-eye"></i> 36 views</p>
+                    </div>
+                    <div class="column small-8 medium-6">
+                      <ul class="share-post text-right">
+                        <li><span class="share"><i class="fa fa-share-alt" aria-hidden="true"></i></span></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  
+                </article>
+                <!-- Pagination -->
+                <div id="pagination-container" class="row column text-center">
+                  <ul class="pagination" role="navigation" aria-label="Pagination">
+                    <li class="disabled">Previous</li>
+                    <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                    <li><a href="#" aria-label="Page 2">2</a></li>
+                    <li><a href="#" aria-label="Page 3">3</a></li>
+                    <li><a href="#" aria-label="Page 4">4</a></li>
+                    <li class="ellipsis"></li>
+                    <li><a href="#" aria-label="Page 12">12</a></li>
+                    <li><a href="#" aria-label="Page 13">13</a></li>
+                    <li><a href="#" aria-label="Next page">Next</a></li>
+                  </ul>
+                </div>        
+          
+              </div>    
+            </div>
+          </section>
+          
+          
+          <!-- Footer -->
+          <footer id="footer-content">
+            <div id="top-footer" class="row align-center">
+          
+              <div class="small-12 medium-6 large-4 columns widget-footer">
+                <h5>Gallery</h5>
+                <div class="row small-up-3">
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-men.jpg" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-fashion.jpg" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-dalmata.jpg" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-dalmata.jpg" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-fashion.jpg" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-men.jpg" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-dalmata.jpg" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-men.jpg" alt="">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/img/post/clarin-post-fashion.jpg" alt="">
+                  </div>
+                </div>      
+              </div>
+          
+              <div class="small-12 medium-6 large-4 columns widget-footer">
+                <h5>Tags</h5>
+                <a href="#"><span class="label">Space</span></a>
+                <a href="#"><span class="label">Galaxies</span></a>
+                <a href="#"><span class="label">Milky Way</span></a>
+                <a href="#"><span class="label">Black Holes</span></a>
+                <a href="#"><span class="label">Rebels</span></a>
+                <a href="#"><span class="label">Death Star</span></a>
+                <a href="#"><span class="label">Republic</span></a>
+                <a href="#"><span class="label">R2D2</span></a>
+                <a href="#"><span class="label">Dark Vader</span></a>
+                <a href="#"><span class="label">Republic</span></a>
+                <a href="#"><span class="label">R2D2</span></a>
+          
+                <div class="divider"></div>
+                
+                <h5>Categories</h5>              
+                <a href="#"><span class="secondary label">Healt</span></a>
+                <a href="#"><span class="secondary label">Beauty</span></a>
+                <a href="#"><span class="secondary label">Healty</span></a>
+                <a href="#"><span class="secondary label">Clean</span></a>
+                <a href="#"><span class="secondary label">Elegant</span></a>
+                <a href="#"><span class="secondary label">Minimal</span></a>
+              </div>
+          
+              <div class="small-12 medium-12 large-4 columns widget-footer space-widget">
+                <h5>About me</h5>
+                <div class="row column text-center">
+                  <a href="#">
+                    <img class="align-center" src="assets/img/clarin-logo-white.png" alt="Clarin Template">
+                  </a>
+                  
+                  <div class="divider-2"></div>
+                  
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aut, voluptas nemo itaque enim. Pariatur inventore ipsa officiis voluptatum asperiores.</p>
+                  <p>Dolor harum voluptas! Blanditiis quia aspernatur animi voluptatum sint praesentium?</p>
+                </div>
+              </div>
+          
+            </div>
+            
+            <!-- Bottom Footer -->
+            <div id="bottom-footer" class="row expanded">
+          
+              <div class="column small-12 medium-6 menu-centered">
+                <ul class="menu">
+                  <li><a href="#">Legal</a></li>
+                  <li><a href="#">Partner</a></li>
+                  <li><a href="#">Explore</a></li>
+                </ul>
+              </div>
+          
+              <div class="column small-12 medium-6">
+                  <p>Copyright &copy; 2016 by <a href="#">Chifo de la Rosa</a></p>
+              </div>
+            
+            </div>
+          
+          </footer>
+          
+          <!-- Scroll to top -->
+          <div data-magellan id="scroll-to-top">
+          	<a href="#header-top" id="return-to-top">
+          		<i class="fa fa-arrow-up" aria-hidden="true"></i>
+          	</a>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+    
+    
+    
+    <!-- Scripts -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
